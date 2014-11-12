@@ -1,0 +1,29 @@
+<resources>
+
+    <!-- Default screen margins, per the Android Design guidelines. -->
+    <dimen name="text_size_title_large">30sp</dimen>
+    <dimen name="text_size_subhead_information">14sp</dimen>
+    <dimen name="text_size_prompt">12sp</dimen>
+    <dimen name="divide_line_height">0.6dip</dimen>
+    <dimen name="content_left_right">20dip</dimen>
+    <dimen name="bind_mobile_content_left_right">12dip</dimen>
+    <dimen name="title_left_right">10dip</dimen>
+    <dimen name="button_left_right">40dip</dimen>
+    <dimen name="widget_padding">10dip</dimen>
+    <dimen name="account_two_button_width">146dip</dimen>
+    <dimen name="account_two_button_height">42dip</dimen>
+    <dimen name="account_one_button_height">40dip</dimen>
+    <dimen name="account_layout_margin_left_right">20dp</dimen>
+    <dimen name="edit_text_height">42dp</dimen>
+    <dimen name="button_height">52dp</dimen>
+    
+    <dimen name="account_logo_margin">26dp</dimen>
+    <dimen name="text_size_edittext">14sp</dimen>
+    <dimen name="account_between_button">18dp</dimen>
+    <dimen name="account_textview_edittext">10dp</dimen>
+    <dimen name="account_context_buttom">20dp</dimen>
+    <dimen name="account_security_code_width">100dip</dimen>
+    <dimen name="account_login_auth_top">5dp</dimen>
+    <dimen name="account_login_auth_buttom">4dp</dimen>
+    <dimen name="layout_height">275dp</dimen>
+</resources>

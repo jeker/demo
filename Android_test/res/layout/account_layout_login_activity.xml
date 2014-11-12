@@ -1,0 +1,89 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="300dp"
+    android:layout_height="wrap_content"
+    android:background="@drawable/account_layout_backgroud"
+    android:minHeight="@dimen/layout_height"
+     android:id="@+id/mainLayout"
+    android:orientation="vertical" >
+
+    <LinearLayout
+        android:id="@+id/login_ll"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical" >
+
+        <include
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            layout="@layout/account_item_title_amigo_logo" />
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginBottom="8dp"
+            android:layout_marginLeft="@dimen/account_layout_margin_left_right"
+            android:layout_marginRight="@dimen/account_layout_margin_left_right"
+            android:layout_marginTop="@dimen/account_between_button"
+            android:background="@drawable/account_inputbackgreoud"
+            android:orientation="vertical" >
+
+            <include
+                android:id="@+id/username_ll"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                layout="@layout/account_item_account_input_for_login" />
+
+            <ImageView
+                android:layout_width="match_parent"
+                android:layout_height="0.5dp"
+                android:background="@color/divider_color" >
+            </ImageView>
+
+            <include
+                android:id="@+id/password_ll"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                layout="@layout/account_item_password_input" />
+        </LinearLayout>
+
+        <LinearLayout
+            android:id="@+id/login_btn_ll"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:gravity="center"
+            android:orientation="vertical" >
+
+
+            <LinearLayout
+                android:id="@+id/fast_login_and_normal_login_button_layout"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginBottom="7dp"
+                android:layout_marginLeft="@dimen/account_layout_margin_left_right"
+                android:layout_marginRight="@dimen/account_layout_margin_left_right"
+                android:layout_marginTop="12dp"
+                android:orientation="horizontal" >
+
+                <Button
+                    android:id="@+id/register_button"
+                    style="@style/Button_green_Style"
+                    android:layout_width="0dp"
+                    android:layout_height="@dimen/account_two_button_height"
+                    android:layout_marginRight="@dimen/account_between_button"
+                    android:layout_weight="1"
+                    android:text="一键注册" />
+
+                <Button
+                    android:id="@+id/login_button"
+                    android:layout_width="0dp"
+                     style="@style/Button_orange_Style"
+                    android:layout_height="@dimen/account_two_button_height"
+                    android:layout_weight="1"
+                    android:text="登陆" />
+            </LinearLayout>
+            
+        </LinearLayout>
+    </LinearLayout>
+
+</RelativeLayout>

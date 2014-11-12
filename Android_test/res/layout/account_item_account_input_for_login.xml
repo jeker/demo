@@ -1,0 +1,35 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:orientation="horizontal"
+     >
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center_vertical"
+        android:text="用户名"
+        style="@style/TextView_Style_Name" />
+
+
+<!--     <AutoCompleteTextView -->
+<!--         android:id="@+id/tn_edittext_actv" -->
+<!--         android:layout_width="match_parent" -->
+<!--         android:layout_height="wrap_content" -->
+<!--         android:dropDownWidth="200dp" -->
+<!--         android:dropDownHeight="100dp" -->
+<!--         android:hint="输入用户名" -->
+<!--          /> -->
+
+      <com.jeker.test.MyAutoCompleteTextView
+        android:id="@+id/editText1"
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:hint="输入用户名"
+        android:ems="10" />
+
+
+
+
+</LinearLayout>

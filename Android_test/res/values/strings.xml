@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <string name="app_name">Android_test</string>
+    <string name="hello_world">Hello world!</string>
+    <string name="action_settings">Settings</string>
+    
+     <string name="pay_result_statu"><![CDATA[状&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;态:<font color=\'#ff6a1a\'>&#160;&#160;%1$s</font>]]></string>
+     <string name="pay_result_statu_recharge_success_not_pay">充值成功,尚未支付</string>
+</resources>
